@@ -1,0 +1,26 @@
+[
+  {
+    "title": "One Piece",
+    "imageSrc": "onepiece.jpeg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "SASS", "Javascript"],
+    "demo": "https://oktoniusz.github.io/one_piece/",
+    "source": "https://github.com/OktoniusZ/one_piece"
+  },
+  {
+    "title": "Lingkar Hijau",
+    "imageSrc": "hutan.jpg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "CSS", "Javascript", "ExpressJS"],
+    "demo": "https://lingkar-hijau.vercel.app/",
+    "source": "https://github.com/OktoniusZ/lingkar-hijau"
+  },
+  {
+    "title": "Chicken Disease Detection",
+    "imageSrc": "ayam1.jpg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Laravel", "MySQL", "Tailwind", "GCP"],
+    "demo": "https://chickmed-web.vercel.app/",
+    "source": "https://github.com/OktoniusZ/chickmed"
+  }
+]

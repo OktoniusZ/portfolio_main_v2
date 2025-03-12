@@ -1,0 +1,51 @@
+[
+  {
+    "role": "Computer Lab Assistant - Full Time",
+    "organisation": "SMA Sutomo 1",
+    "startDate": "Nov, 2021",
+    "endDate": "Jun, 2024",
+    "experiences": [
+      "Assisting instructors in the practical implementation process",
+      "Develop practial materials",
+      "Maintaining laboratory equipment"
+    ],
+    "imageSrc": "sutomo.png"
+  },
+  {
+    "role": "Front-End and Back-End Developer - Intern",
+    "organisation": "Dicoding Academy",
+    "startDate": "Feb, 2023",
+    "endDate": "July, 2023",
+    "experiences": [
+      "Worked on asynchronous methods",
+      "Critial/Design Thinking",
+      "Develop Front-End web and Back-End solutions called Lingkar Hijau"
+    ],
+    "imageSrc": "dicoding.jpeg"
+  },
+  {
+    "role": "Cloud Computing Engineer - Intern",
+    "organisation": "Bangkit Academy with Google, GoTo, Traveloka",
+    "startDate": "Aug, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": [
+      "Development of solutions to validate product development skills",
+      "Worked on a standalone RESTful API",
+      "Integrating Google Cloud Platform services to create and deploy applications"
+    ],
+    "imageSrc": "bangkit.jpg"
+  },
+  {
+    "role": "Database Administrator - Full Time",
+    "organisation": "PT. Indako Trading Coy",
+    "startDate": "Jul, 2024",
+    "endDate": "Feb, 2025",
+    "experiences": [
+      "Software troubleshooting",
+      "Provide training to users on application usage",
+      "Execute database queries",
+      "Create technical documentation and software maintenance guidelines"
+    ],
+    "imageSrc": "itc.png"
+  }
+]

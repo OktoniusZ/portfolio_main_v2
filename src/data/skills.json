@@ -1,0 +1,30 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "tailwind.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Laravel",
+    "imageSrc": "laravel.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "postgresql.png"
+  },
+  {
+    "title": "Google Cloud",
+    "imageSrc": "cloud.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "figma.png"
+  }
+]
