@@ -63,17 +63,17 @@ const Navbar = () => {
           }`}
         >
           <div className="flex flex-col space-y-4 p-4">
-            <a href="/" className="text-white hover:text-purple-400">
+            <a href="#home" className="text-white hover:text-purple-400">
               Home
             </a>
-            <a href="/about" className="text-white hover:text-purple-400">
-              About
+            <a href="#experiences" className="text-white hover:text-purple-400">
+              Experiences
             </a>
-            <a href="/service" className="text-white hover:text-purple-400">
-              Services
+            <a href="#projects" className="text-white hover:text-purple-400">
+              Projects
             </a>
-            <a href="/article" className="text-white hover:text-purple-400">
-              Articles
+            <a href="#footer" className="text-white hover:text-purple-400">
+              Footer
             </a>
           </div>
         </div>
