@@ -1,5 +1,64 @@
 @import "tailwindcss";
-
 body {
-    background-color: #04152d;
+  background-color: #04152d;
+}
+
+/* Custom Animations */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatReverse {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+/* Animation Utilities */
+.animate-fade-in {
+  animation: fadeIn 1.5s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.animate-float {
+  animation: float 6s infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 6s infinite;
 }

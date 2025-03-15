@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,7 +25,7 @@ const Footer = () => {
   };
   return (
     <section
-      id="contact"
+      id="footer"
       className="py-16 text-center text-[#f4f4f4] flex items-center justify-center min-h-[50vh]"
     >
       <motion.div
