@@ -205,14 +205,15 @@ const HomeSection = () => {
   return (
     <div
       className={`min-h-screen w-full transition-colors duration-300 ${
-        isDarkMode ? "bg-[#04152d]" : "bg-gray-50"
+        isDarkMode ? "" : "bg-gray-50"
       }`}
+      id="home"
     >
       {/* Enhanced Particle Background */}
       <ParticleBackground isDarkMode={isDarkMode} />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-purple-500/10 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent pointer-events-none"></div>
 
       {/* Toggle Theme Button */}
       <button
@@ -312,8 +313,8 @@ const HomeSection = () => {
       </button>
 
       {/* Hero Section */}
-      <div className="container mx-auto min-h-screen flex justify-around items-center px-4 md:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-8 py-12 items-center">
+      <div className="container mx-auto min-h-screen flex justify-center items-center px-4 md:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-8 py-12 items-center text-center lg:text-left">
           {/* Left Column - Text Content */}
           <div
             className={`order-2 lg:order-1 ${
@@ -336,7 +337,7 @@ const HomeSection = () => {
             </h1>
 
             <p
-              className={`text-lg mb-8 max-w-xl ${
+              className={`text-lg mb-8 max-w-xl mx-auto lg:mx-0 ${
                 isDarkMode ? "text-gray-300" : "text-gray-700"
               } ${
                 isLoaded
@@ -355,23 +356,12 @@ const HomeSection = () => {
                   : "opacity-0 translate-y-4"
               } transition-all duration-1000 delay-500`}
             >
-              <button className="group relative px-6 py-3 overflow-hidden rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium shadow-lg hover:shadow-purple-500/40 transition-all duration-300 transform hover:scale-105 active:scale-95">
+              <button className="group relative px-6 py-3 overflow-hidden rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium shadow-lg hover:shadow-purple-500/40 transition-all duration-300 transform active:scale-95">
                 <span className="relative z-10 flex items-center">
-                  Get Started
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-2 transform group-hover:translate-x-1 transition-transform"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    />
-                  </svg>
+                  <a href="https://www.linkedin.com/in/oktonius-zevanya/">
+                    {" "}
+                    About Me
+                  </a>
                 </span>
                 <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </button>
@@ -383,7 +373,7 @@ const HomeSection = () => {
                     : "border-gray-300 text-gray-700 hover:border-gray-500"
                 } font-medium transition-all duration-300`}
               >
-                Learn More
+                <a href="#experiences">Explore</a>
               </button>
             </div>
           </div>
@@ -429,8 +419,8 @@ const HomeSection = () => {
                     />
                   </linearGradient>
                 </defs>
-                // Enhanced particle effects for React & Tailwind // Continuing
-                from the previous implementation
+
+                {/* Enhanced particle effects */}
                 <ellipse
                   cx="250"
                   cy="350"
