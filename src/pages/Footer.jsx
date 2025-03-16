@@ -26,29 +26,29 @@ const Footer = () => {
   return (
     <section
       id="footer"
-      className="py-16 text-center text-[#f4f4f4] flex items-center justify-center min-h-[50vh]"
+      className="py-16 text-center text-[#f4f4f4] flex items-center justify-center min-h-[50vh] px-4"
     >
       <motion.div
-        className="max-w-xl w-full"
+        className="max-w-sm md:max-w-xl w-full"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       >
         <motion.h2
-          className="text-5xl mb-4 text-[#f4f4f4] shadow-md"
+          className="text-3xl md:text-5xl mb-4 text-[#f4f4f4] shadow-md"
           variants={itemVariants}
         >
           Get in Touch
         </motion.h2>
-        <motion.p className="text-xl mb-8" variants={itemVariants}>
-          Whether it's for collaboration or just a quick chat, feel free to
-          reach out! 👋
+        <motion.p className="text-lg md:text-xl mb-8" variants={itemVariants}>
+          Feel free to reach out for collaborations or a quick chat. Always
+          happy to connect👋
         </motion.p>
 
         {/* Social Media Links */}
         <motion.div
-          className="flex justify-center gap-8 mb-8"
+          className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8"
           variants={itemVariants}
         >
           <a
@@ -59,7 +59,7 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              className="text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
+              className="text-4xl md:text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
             />
           </a>
           <a
@@ -70,7 +70,7 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              className="text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
+              className="text-4xl md:text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
             />
           </a>
           <a
@@ -81,7 +81,7 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              className="text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
+              className="text-4xl md:text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
             />
           </a>
           <a
@@ -92,14 +92,17 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faEnvelopeSolid}
-              className="text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
+              className="text-4xl md:text-5xl text-[#f4f4f4] transition-all duration-300 hover:text-[#b47aff] hover:-translate-y-1"
             />
           </a>
         </motion.div>
 
         {/* Additional Text */}
-        <motion.p className="text-lg opacity-80" variants={itemVariants}>
-          Crafted with ❤️ by Oktonius Zevanya Simanungkalit
+        <motion.p
+          className="text-sm md:text-lg opacity-80"
+          variants={itemVariants}
+        >
+          Designed & built by Oktonius Zevanya Simanungkalit
         </motion.p>
       </motion.div>
     </section>
