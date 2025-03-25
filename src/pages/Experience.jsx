@@ -11,7 +11,7 @@ const Experience = () => {
     >
       <h2 className="text-4xl mb-12 font-bold text-white drop-shadow-md relative">
         <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-          Experiences
+          My Experiences
         </span>
         <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></span>
       </h2>

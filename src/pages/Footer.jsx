@@ -45,7 +45,7 @@ const Footer = () => {
           Feel free to reach out for collaborations or a quick chat. Always
           happy to connect👋
         </motion.p>
-
+        
         {/* Social Media Links */}
         <motion.div
           className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8"
