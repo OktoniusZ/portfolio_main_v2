@@ -30,7 +30,7 @@ export const currentProjects = [
     progress: 40,
     status: "Beta Testing",
     tech: ["Next.js", "OpenAI", "Prisma", "Stripe"],
-    github: "https://github.com/OktoniusZ/movie_app",
+    github: "https://github.com/OktoniusZ/star-tix",
     link: "https://under-construction-lilac.vercel.app/",
     image: "cinema.jpg",
   },
