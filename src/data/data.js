@@ -25,7 +25,7 @@ export const currentProjects = [
   },
   {
     id: 3,
-    title: "MovieApp",
+    title: "StarTix",
     description: "MovieApp is a mobile application designed for browsing, discovering, and tracking movies. It provides features like movie details, ratings, and user watchlists, offering a seamless experience for movie enthusiasts. Built with a modern UI, the app ensures smooth navigation and accessibility on mobile devices.",
     progress: 40,
     status: "Beta Testing",
