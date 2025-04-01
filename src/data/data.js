@@ -34,4 +34,15 @@ export const currentProjects = [
     link: "https://under-construction-lilac.vercel.app/",
     image: "cinema.jpg",
   },
+  {
+    id: 4,
+    title: "MediChat",
+    description: "MediChat – Instant Doctor Consultation App. MediChat is a secure and user-friendly mobile app that connects patients with licensed doctors for real-time chat consultations. Whether you need quick medical advice, prescription refills, or specialist opinions, MediChat provides fast, reliable, and confidential healthcare support.",
+    progress: 40,
+    status: "Beta Testing",
+    tech: ["Next.js", "OpenAI", "Prisma", "Stripe"],
+    github: "https://github.com/OktoniusZ/MediChat",
+    link: "https://under-construction-lilac.vercel.app/",
+    image: "doctor.jpg",
+  },
 ];
