@@ -8,19 +8,27 @@
     "source": "https://github.com/OktoniusZ/one_piece"
   },
   {
+    "title": "ChickMed - Chicken Disease Detection",
+    "imageSrc": "ayam1.jpg",
+    "description": "We created an Android application that provides information about diseases suffered by the chicken. This application will provide recommendations on how to deal with the disease. We will use the image detection method to detect the disease suffered by chickens based on their feces.",
+    "skills": ["ReactJS", "Laravel", "MySQL", "Tailwind"],
+    "demo": "https://chickmed-web.vercel.app/",
+    "source": "https://github.com/OktoniusZ/chickmed"
+  },
+  {
+    "title": "MediChat - Doctor Consultation App",
+    "imageSrc": "doctor.jpg",
+    "description": "MediChat is a secure and user-friendly mobile app that connects patients with licensed doctors for real-time chat consultations. Whether you need quick medical advice, prescription refills, or specialist opinions, MediChat provides fast, reliable, and confidential healthcare support.",
+    "skills": ["React Native", "NativeWind", "Supabase"],
+    "demo": "https://github.com/OktoniusZ/MediChat",
+    "source": "https://github.com/OktoniusZ/MediChat"
+  },
+  {
     "title": "Lingkar Hijau",
     "imageSrc": "hutan.jpg",
     "description": "Lingkar Hijau is a website-based information system created with the aim of educating the public as well as being an information medium for tree planting. This application can function as a media link directly to people who want to plant trees but are constrained by location or so on. Thus, the information we display is not only about the importance of tree planting, but also includes information about the progress of tree planting that is being carried out.",
     "skills": ["HTML", "CSS", "Javascript", "ExpressJS"],
     "demo": "https://lingkar-hijau.vercel.app/",
     "source": "https://github.com/OktoniusZ/lingkar-hijau"
-  },
-  {
-    "title": "Chicken Disease Detection",
-    "imageSrc": "ayam1.jpg",
-    "description": "We created an Android application that provides information about diseases suffered by the chicken. This application will provide recommendations on how to deal with the disease. We will use the image detection method to detect the disease suffered by chickens based on their feces.",
-    "skills": ["React", "Laravel", "MySQL", "Tailwind", "GCP"],
-    "demo": "https://chickmed-web.vercel.app/",
-    "source": "https://github.com/OktoniusZ/chickmed"
   }
 ]
