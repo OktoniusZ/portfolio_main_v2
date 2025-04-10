@@ -24,6 +24,14 @@
     "source": "https://github.com/OktoniusZ/MediChat"
   },
   {
+    "title": "StarTix - Movie App",
+    "imageSrc": "cinema.jpg",
+    "description": "StarTix is a mobile application designed for browsing, discovering, and tracking movies. It provides features like movie details, ratings, and user watchlists, offering a seamless experience for movie enthusiasts. Built with a modern UI, the app ensures smooth navigation and accessibility on mobile devices.",
+    "skills": ["React Native", "NativeWind", "TMDB API"],
+    "demo": "https://github.com/OktoniusZ/MediChat",
+    "source": "https://github.com/OktoniusZ/MediChat"
+  },
+  {
     "title": "Lingkar Hijau",
     "imageSrc": "hutan.jpg",
     "description": "Lingkar Hijau is a website-based information system created with the aim of educating the public as well as being an information medium for tree planting. This application can function as a media link directly to people who want to plant trees but are constrained by location or so on. Thus, the information we display is not only about the importance of tree planting, but also includes information about the progress of tree planting that is being carried out.",

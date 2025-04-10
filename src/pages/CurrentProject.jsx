@@ -31,7 +31,7 @@ const SpaceCards = () => {
           <p className="text-gray-300 max-w-2xl mx-auto">
             what I’m currently building, experimenting with, or improving. It’s
             a peek into my work-in-progress projects—stay tuned for{" "}
-            <span className="text-yellow-300">updates!</span>.
+            <span className="text-yellow-300">updates!</span>
           </p>
         </div>
 
