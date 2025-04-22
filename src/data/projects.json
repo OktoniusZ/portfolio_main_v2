@@ -16,6 +16,22 @@
     "source": "https://github.com/OktoniusZ/chickmed"
   },
   {
+    "title": "Trivixor - trivia game",
+    "imageSrc": "quiz.jpg",
+    "description": "Trivixor is a fast-paced, web-based trivia game built with React JS. Test your knowledge across categories, race against the clock, and climb the leaderboard in this fun, interactive quiz challenge.",
+    "skills": ["ReactJS", "Tailwind", "Supabase"],
+    "demo": "https://trivixor.vercel.app/",
+    "source": "https://github.com/OktoniusZ/trivixor"
+  },
+  {
+    "title": "Lingkar Hijau",
+    "imageSrc": "hutan.jpg",
+    "description": "Lingkar Hijau is a website-based information system created with the aim of educating the public as well as being an information medium for tree planting. This application can function as a media link directly to people who want to plant trees but are constrained by location or so on. Thus, the information we display is not only about the importance of tree planting, but also includes information about the progress of tree planting that is being carried out.",
+    "skills": ["HTML", "CSS", "Javascript", "ExpressJS"],
+    "demo": "https://lingkar-hijau.vercel.app/",
+    "source": "https://github.com/OktoniusZ/lingkar-hijau"
+  },
+  {
     "title": "MediChat - Doctor Consultation App",
     "imageSrc": "doctor.jpg",
     "description": "MediChat is a secure and user-friendly mobile app that connects patients with licensed doctors for real-time chat consultations. Whether you need quick medical advice, prescription refills, or specialist opinions, MediChat provides fast, reliable, and confidential healthcare support.",
@@ -30,13 +46,5 @@
     "skills": ["React Native", "NativeWind", "TMDB API"],
     "demo": "https://github.com/OktoniusZ/MediChat",
     "source": "https://github.com/OktoniusZ/MediChat"
-  },
-  {
-    "title": "Lingkar Hijau",
-    "imageSrc": "hutan.jpg",
-    "description": "Lingkar Hijau is a website-based information system created with the aim of educating the public as well as being an information medium for tree planting. This application can function as a media link directly to people who want to plant trees but are constrained by location or so on. Thus, the information we display is not only about the importance of tree planting, but also includes information about the progress of tree planting that is being carried out.",
-    "skills": ["HTML", "CSS", "Javascript", "ExpressJS"],
-    "demo": "https://lingkar-hijau.vercel.app/",
-    "source": "https://github.com/OktoniusZ/lingkar-hijau"
   }
 ]
