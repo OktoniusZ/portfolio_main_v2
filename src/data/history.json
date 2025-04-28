@@ -9,7 +9,7 @@
       "Develop practial materials",
       "Maintaining laboratory equipment"
     ],
-    "imageSrc": "sutomo.png"
+    "imageSrc": "sutomo.webp"
   },
   {
     "role": "Front-End and Back-End Developer - Intern",
@@ -21,7 +21,7 @@
       "Critial/Design Thinking",
       "Develop Front-End web and Back-End solutions called Lingkar Hijau"
     ],
-    "imageSrc": "dicoding.jpeg"
+    "imageSrc": "dicoding.webp"
   },
   {
     "role": "Cloud Computing Engineer - Intern",
@@ -33,7 +33,7 @@
       "Worked on a standalone RESTful API",
       "Integrating Google Cloud Platform services to create and deploy applications"
     ],
-    "imageSrc": "bangkit.jpg"
+    "imageSrc": "bangkit.webp"
   },
   {
     "role": "Database Administrator - Full Time",
@@ -46,6 +46,6 @@
       "Execute database queries",
       "Create technical documentation and software maintenance guidelines"
     ],
-    "imageSrc": "itc.png"
+    "imageSrc": "itc.webp"
   }
 ]

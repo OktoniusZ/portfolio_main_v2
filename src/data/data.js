@@ -8,7 +8,7 @@ export const currentProjects = [
     tech: ["ReactJS", "Tailwind"],
     github: "https://github.com/OktoniusZ/sikretif",
     link: "https://sikretif.vercel.app/",
-    image: "beads.jpg",
+    image: "beads.webp",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const currentProjects = [
     github: "https://github.com/Senju002/school-management-system",
     link: "https://under-construction-lilac.vercel.app/",
     image:
-      "mikroskil.jpg",
+      "mikroskil.webp",
   },
   {
     id: 3,
@@ -32,6 +32,6 @@ export const currentProjects = [
     tech: ["Next.js", "OpenAI", "Prisma", "Stripe"],
     github: "https://github.com/OktoniusZ/lynxjs_testing",
     link: "https://under-construction-lilac.vercel.app/",
-    image: "lynx.png",
+    image: "lynx.webp",
   },
 ]

@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo on the left */}
           <div className="flex-shrink-0">
-            <a className="text-2xl mb-12 font-bold text-white drop-shadow-md relative">
+            <a href="#home" className="text-2xl mb-12 font-bold text-white drop-shadow-md relative">
               <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
                 Simanungkalit
               </span>

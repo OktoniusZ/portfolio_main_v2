@@ -1,30 +1,42 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "html.png"
+    "imageSrc": "html.webp"
   },
   {
     "title": "Tailwind",
-    "imageSrc": "tailwind.png"
+    "imageSrc": "tailwind.webp"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "nodejs.webp"
   },
   {
     "title": "React",
-    "imageSrc": "react.png"
+    "imageSrc": "react.webp"
+  },
+  {
+    "title": "ExpressJS",
+    "imageSrc": "expressjs.webp"
   },
   {
     "title": "Laravel",
-    "imageSrc": "laravel.png"
+    "imageSrc": "laravel.webp"
   },
   {
     "title": "PostgreSQL",
-    "imageSrc": "postgresql.png"
+    "imageSrc": "postgresql.webp"
   },
   {
     "title": "Google Cloud",
-    "imageSrc": "cloud.png"
+    "imageSrc": "cloud.webp"
   },
   {
     "title": "Figma",
-    "imageSrc": "figma.png"
+    "imageSrc": "figma.webp"
+  },
+  {
+    "title": "SAP",
+    "imageSrc": "sap.webp"
   }
 ]
