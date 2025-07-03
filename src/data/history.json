@@ -47,5 +47,18 @@
       "Create technical documentation and software maintenance guidelines"
     ],
     "imageSrc": "itc.webp"
+  },
+  {
+    "role": "IT Staff - Full Time",
+    "organisation": "Padma Bahtera Medical Centre",
+    "startDate": "May, 2025",
+    "endDate": "Now",
+    "experiences": [
+      "Software troubleshooting",
+      "Provide training to users on application usage",
+      "Execute database queries",
+      "Create technical documentation and software maintenance guidelines"
+    ],
+    "imageSrc": "padma.png"
   }
 ]
