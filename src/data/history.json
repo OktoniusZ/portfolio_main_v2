@@ -54,11 +54,11 @@
     "startDate": "May, 2025",
     "endDate": "Now",
     "experiences": [
-      "Software troubleshooting",
-      "Provide training to users on application usage",
-      "Execute database queries",
-      "Create technical documentation and software maintenance guidelines"
+      "Develop and customize Zoho Billing, Desk, Books, and CRM",
+      "Integrate Zoho Billing with Xendit for payment processing",
+      "Troubleshoot and maintain internal systems",
+      "Maintain and monitor physical servers and office network infrastructure"
     ],
-    "imageSrc": "padma.png"
+    "imageSrc": "padma.webp"
   }
 ]
