@@ -17,22 +17,23 @@ const Experience = () => {
       </h2>
       <div className="flex flex-col gap-8 w-full max-w-5xl">
         {/* Skills Section */}
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6">
           {skills.map((skill, id) => (
             <div
             key={id}
-            className="flex flex-col items-center p-6 bg-[#2a2346] rounded-lg shadow-md 
+            className="flex flex-col items-center p-3 sm:p-4 md:p-6 bg-[#2a2346] rounded-lg shadow-md 
             transition-all duration-500 ease-in-out transform hover:scale-105 
-            hover:bg-gradient-to-r from-[#2a2346] to-[#3c2a64] hover:shadow-xl w-40 min-w-[160px] text-center"
+            hover:bg-gradient-to-r from-[#2a2346] to-[#3c2a64] hover:shadow-xl 
+            w-32 sm:w-36 md:w-40 min-w-[128px] sm:min-w-[144px] md:min-w-[160px] text-center"
           >
-            <div className="w-20 h-20 flex items-center justify-center mb-4">
+            <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 flex items-center justify-center mb-2 sm:mb-3 md:mb-4">
               <img
                 src={getImageUrl(skill.imageSrc)}
                 alt={skill.title}
                 className="w-full h-full object-contain"
               />
             </div>
-            <p className="text-lg font-semibold">{skill.title}</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold">{skill.title}</p>
           </div>
           ))}
         </div>
