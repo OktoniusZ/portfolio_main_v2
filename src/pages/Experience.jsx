@@ -42,25 +42,27 @@ const Experience = () => {
           {history.map((historyItem, id) => (
             <li
               key={id}
-              className="flex items-center bg-[#2a2346] p-6 rounded-lg shadow-md 
+              className="flex flex-col sm:flex-row sm:items-center bg-[#2a2346] p-4 sm:p-6 rounded-lg shadow-md 
               transition-all duration-500 ease-in-out transform hover:scale-105 
               hover:bg-gradient-to-r from-[#2a2346] to-[#3c2a64] hover:shadow-xl"
             >
-              <img
-                src={getImageUrl(historyItem.imageSrc)}
-                alt={`${historyItem.organisation} Logo`}
-                className="w-24 h-24 mr-6 rounded-full transition-all duration-500 hover:scale-110"
-              />
-              <div className="flex-1 text-left">
-                <h3 className="text-2xl font-semibold">{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                <p className="my-2 opacity-80">{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                <ul className="list-disc pl-6">
-                  {historyItem.experiences.map((experience, id) => (
-                    <li key={id} className="mb-2 opacity-90">
-                      {experience}
-                    </li>
-                  ))}
-                </ul>
+              <div className="flex flex-col sm:flex-row sm:items-center w-full">
+                <img
+                  src={getImageUrl(historyItem.imageSrc)}
+                  alt={`${historyItem.organisation} Logo`}
+                  className="w-16 h-16 sm:w-20 md:w-24 sm:h-20 md:h-24 mx-auto sm:mx-0 sm:mr-4 md:mr-6 mb-4 sm:mb-0 rounded-full transition-all duration-500 hover:scale-110 flex-shrink-0"
+                />
+                <div className="flex-1 text-center sm:text-left">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <p className="my-2 opacity-80 text-sm sm:text-base">{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <ul className="list-disc pl-4 sm:pl-6 text-left">
+                    {historyItem.experiences.map((experience, id) => (
+                      <li key={id} className="mb-2 opacity-90 text-sm sm:text-base">
+                        {experience}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </li>
           ))}
